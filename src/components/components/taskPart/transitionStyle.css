@@ -1,0 +1,16 @@
+
+
+.TaskElement_Transition-enter {
+  transform: translateX(-100%);
+}
+.TaskElement_Transition-enter-active {
+  transform: translateX(0);
+  transition: transform 700ms ease-in;
+}
+.TaskElement_Transition-exit {
+  transform: translateX(0);
+}
+.TaskElement_Transition-exit-active {
+  transform: translateX(100%);
+  transition: transform 700ms ease-in;
+}
